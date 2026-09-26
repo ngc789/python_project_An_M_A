@@ -3,7 +3,7 @@
 x = float(input("введите вес конфет в кг :"))
 a = float(input("введите стоимость конфет в рублях за кг :"))
 y = float(input("введите вес для расчёта стоимости в кг :"))
-price_per_kg = a/x
+price_per_kg = a / x
 cost_y = price_per_kg * y
 print("стоимость 1 кг",price_per_kg)
 print("стоимость y кг",cost_y)
