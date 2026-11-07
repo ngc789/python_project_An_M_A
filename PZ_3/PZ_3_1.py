@@ -4,11 +4,12 @@
 while True:
     try:
         a = int(input("Введите число: "))
-
+        break
     except ValueError:
         print("Введено не число! Попробуйте снова")
-    if a > 0:
-     print("Число положительное")
-    else:
-     print("Число отрицательное")
+
+if a > 0:
+    print("Число положительное")
+else:
+    print("Число отрицательное")
 
