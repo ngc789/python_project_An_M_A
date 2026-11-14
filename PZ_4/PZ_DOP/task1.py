@@ -9,21 +9,27 @@ while type(a) != float:
         a = float(a)
     except ValueError:
         print("Введён неккоректный символ . Попробуйте снова")
+        a = input("Введите 1 число: ")
 while type(b) != float:
     try:
         b = float(b)
     except ValueError:
         print("Введён неккоректный символ . Попробуйте снова")
+        b = input("Введите 2 число: ")
+
 while type(c) != float:
     try:
         c = float(c)
     except ValueError:
         print("Введён неккоректный символ . Попробуйте снова")
+        c = input("Введите 3 число: ")
+
 while type(d) != float:
     try:
         d = float(d)
     except ValueError:
         print("Введён неккоректный символ . Попробуйте снова")
+        d = input("Введите 4 число: ")
 sum_neg = 0
 total_neg = 0
 

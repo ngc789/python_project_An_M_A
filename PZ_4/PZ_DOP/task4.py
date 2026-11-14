@@ -7,6 +7,7 @@ while type(n) != int:
             print("Число должно быть больше 1!")
     except ValueError:
         print("Введён неккоректный символ . Попробуйте снова")
+        n = input("Введите целое число : ")
 
 f = 1
 total_sum = 0

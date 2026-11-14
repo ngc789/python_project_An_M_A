@@ -7,11 +7,13 @@ while type(a) != int:
         a = int(a)
     except ValueError:
         print("Неправильное введенный символ . Попробуйте снова")
+        a = input("Введите 1 число: ")
 while type(b) != int:
     try:
         b = int(b)
     except ValueError:
         print("Неправильн введеный символ . Попробуйте снова")
+        b = input("Введите 2 число: ")
 k = 0
 while a <= b:
     print(a)
