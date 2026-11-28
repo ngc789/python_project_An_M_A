@@ -8,7 +8,7 @@ l = int(input("Введите L: "))
 list_a = []
 for i in range(n):
     list_a.append(random.randint(0, 1000))
-list_a[k : l - 1] = list_a[k : l - 1][::-1]
 print("Исходный список: ", list_a)
+list_a[k : l - 1] = list_a[k : l - 1][::-1]
 print("Результирующий список: ", list_a)
 
